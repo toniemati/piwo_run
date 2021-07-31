@@ -9,13 +9,13 @@ let lastRenderTime = 0;
 let enemiesInterval;
 
 const enemiesArr = [
-  { name: 'battek', img: '../img/bartek.png'},
-  { name: 'kamil', img: '../img/kamil.png'},
-  { name: 'pawel', img: '../img/pawel.png'},
-  { name: 'miki', img: '../img/miki.png'},
-  { name: 'robert', img: '../img/robert.png'},
-  { name: 'szymon', img: '../img/szymon.png'},
-  { name: 'mati', img: '../img/mati.png'},
+  { name: 'battek', img: 'https://i.imgur.com/WMrSwjE.png'},
+  { name: 'kamil', img: 'https://i.imgur.com/ADJYHSi.png'},
+  { name: 'pawel', img: 'https://i.imgur.com/JBbna5n.png'},
+  { name: 'miki', img: 'https://i.imgur.com/U2atsga.png'},
+  { name: 'robert', img: 'https://i.imgur.com/AEJbfDh.png'},
+  { name: 'szymon', img: 'https://i.imgur.com/B1qPv22.png'},
+  { name: 'mati', img: 'https://i.imgur.com/y41zOLM.png'},
 ];
 
 const animate = (currentTime) => {
